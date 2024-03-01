@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary:#FBF7F4;
+    --text: #191102;
+    --green: #0CF574;
+    --content-margin:0% 188px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: var(--primary);
+    height: 100vh;
+    font-family:"Poppins", sans-serif;
+    /* overflow: hidden; */
+}
+
+/* Navigation-Bar */
+
+.navbar{
+    display: flex;
+    margin:var(--content-margin);
+    padding-top: 28px;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo{
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.nav-links{
+    width: 50%;
+    display: flex;
+    flex-direction: end;
+    justify-content:flex-end;
+    gap: 20px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: var(--text);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-link:hover{
+    color:var(--green);
+    
+}
+
+
+/* Hero-Section */
+
+.hero{
+    display: flex;
+    margin:0 auto;
+    margin-top:6rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+.profile-text p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0 0;
+}
+
+.profile-text .designation{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.profile-text h1{
+    font-size:4rem;
+    margin:-15px 0;
+}
+
+.btn-section{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.btn{
+    border: 2px solid var(--text);
+    padding: 8px 15px;
+    width: 50%;
+    border-radius:20px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.download-resume{
+    background:var(--text);
+    color: var(--primary);
+}
+
+.contact{
+    background: var(--primary);
+    color: var(--text);
+}
+
+
+.profile-image img{
+    height: 400px;
+    width: 400px;
+    clip-path: circle(45%);
+
+}
+
+
+/* About Me Section */
+
+.about{
+    margin-top: 6rem;
+}
+
+.about-header{
+    margin: var(--content-margin);
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.about-header p{
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.about-header h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.about-content{
+    margin: var(--content-margin);
+    margin-top: 4rem;
+    display: flex;
+    gap: 2rem;  
+}
+
+.about-image img{
+    height:308px;
+    border-radius: 30px;
+    
+}
+
+.about-text p{
+    margin:0 auto;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+#skills{
+    font-size: 20px;
+    text-align: center;
+    margin-top:6rem;
+    font-weight: 700;
+}
+
+.skill{
+    margin:0 20%;
+    margin-top: 3rem;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.skill-list{
+    width: 50%;
+    /* border: 3px solid var(--text); */
+    background: rgba(0, 0, 0, 0.1);
+    padding: 3rem 1rem;
+    border-radius: 30px;
+}
+
+.skill-list ul{
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-list ul li{
+    font-size: 15px;
+    font-weight: 500;
+}
