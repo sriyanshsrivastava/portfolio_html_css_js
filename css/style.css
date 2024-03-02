@@ -5,6 +5,7 @@
     --text: #191102;
     --green: #0CF574;
     --brown:#372D26;
+    --gray:#D9D9D9;
     --content-margin:0% 188px;
 }
 
@@ -232,3 +233,98 @@ body{
 }
 
 /* Project Section  */
+.project{
+    margin-top: 6rem;
+}
+
+.project-header{
+    margin: var(--content-margin);
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.project-header h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.project-section{
+    display: flex;
+    margin: var(--content-margin);
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.projects{
+    display: flex;
+    gap: 1rem;
+    width: 98%;
+    min-height: fit-content;
+    
+}
+
+.arrow{
+    display: flex;
+    align-items: center;
+}
+
+.project-item{
+    background: var(--gray);
+    width: 25%;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+
+.project-img{
+    width:100%;
+}
+
+.project-img img{
+    width:100%;
+    border-radius: 15px;
+    
+}
+
+.project-item p{
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px 0;
+}
+
+.project-item .description{
+    font-weight: 300;
+    font-size: 10px;
+}
+
+
+.btn-container{
+    margin-top: 5px;
+}
+
+.project-btn{
+    font-size: 8px;
+    font-weight: 700;
+    color:white;
+    background: var(--text);
+    padding: 5px 10px;
+    border-radius:20px;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.all-project-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.all-projects{
+    font-size: 12px;
+    padding: 5px 20px;
+}
+
+
+/* contact me section */
