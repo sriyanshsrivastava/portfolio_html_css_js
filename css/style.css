@@ -328,3 +328,85 @@ body{
 
 
 /* contact me section */
+.contact-me{
+    margin-top: 6rem;
+}
+
+.contact-header{
+    margin: var(--content-margin);
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact-header p{
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.contact-header h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.contact-me-container{
+    margin: var(--content-margin);
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.contact-links{
+    width: 50%;
+}
+
+.form-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    
+}
+
+.form-area #email{
+    width: 60%;
+    padding: 5px 20px;
+    border-radius: 15px;
+    border: 2px solid var(--text);
+    font-size: 14px;
+}
+
+.form-area #message{
+    width: 60%;
+    padding: 5px 20px;
+    border-radius: 15px;
+    border: 2px solid var(--text);
+    margin-top: 0.5rem;
+    height:5rem;
+}
+
+#message::placeholder{
+    font-size: 14px;
+    font-family: "Poppins";
+}
+
+.form-area button{
+    font-size: 12px;
+    margin-top: 0.5rem;
+    width: 25%;
+    text-transform: capitalize;
+    font-weight: 700;
+    background: var(--text);
+    color: white;
+}
+
+
+/* footer */
+
+.footer{
+    background-color:var(--text);
+    height: 3rem;
+}
+
+
