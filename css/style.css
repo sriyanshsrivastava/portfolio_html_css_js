@@ -4,6 +4,7 @@
     --primary:#FBF7F4;
     --text: #191102;
     --green: #0CF574;
+    --brown:#372D26;
     --content-margin:0% 188px;
 }
 
@@ -134,7 +135,14 @@ body{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+}
 
+.about-me-subtitle{
+    font-size: 20px;
+    text-align: center;
+    margin-top:6rem;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .about-header p{
@@ -166,13 +174,6 @@ body{
     text-align: center;
 }
 
-#skills{
-    font-size: 20px;
-    text-align: center;
-    margin-top:6rem;
-    font-weight: 700;
-}
-
 .skill{
     margin:0 20%;
     margin-top: 3rem;
@@ -200,3 +201,34 @@ body{
     font-size: 15px;
     font-weight: 500;
 }
+
+.education-container{
+    display: flex;
+    margin: var(--content-margin);
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.education-box{
+    display: flex;
+    flex-direction: column;
+    background:var(--brown);
+    padding:20px 15px;
+    width: 33%;
+    height:6rem;
+    border-radius: 15px;
+    color: white;
+    justify-content: center;
+}
+.education-box h5{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.education-box p{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+/* Project Section  */
