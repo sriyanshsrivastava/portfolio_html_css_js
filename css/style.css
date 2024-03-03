@@ -357,6 +357,23 @@ body{
     margin-bottom: 3rem;
 }
 
+.social-links{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    gap:0.5rem;
+    margin-left: 30%;
+    margin-bottom: 1rem;
+}
+
+.social-links img{
+    width: 16px;
+}
+.social-links a{
+    font-size: 12px;
+    cursor: pointer;
+}
+
 .contact-links{
     width: 50%;
 }
